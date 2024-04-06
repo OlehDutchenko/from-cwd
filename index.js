@@ -40,3 +40,4 @@ function fromCWD (...paths) {
 // ----------------------------------------
 
 module.exports = fromCWD;
+module.exports.fromCWD = fromCWD;

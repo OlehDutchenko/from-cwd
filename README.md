@@ -17,6 +17,8 @@
 
 ```js
 const fromCWD = require('from-cwd');
+// or
+const { fromCWD } = require('from-cwd');
 
 const resolvedPath1 = fromCWD('my-folder/my.file');
 // or
